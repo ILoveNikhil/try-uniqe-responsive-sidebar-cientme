@@ -1,0 +1,162 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none ;  
+}
+/* -----------------------++++  body ++++++------------------------ */
+
+:root{
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: red;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #00002f;
+    /* --text-color: black; */
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease; 
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+body{
+    /* min-height: 100vh; */
+    background-color: var(--body-color);
+    transition: var(--tran-05);  
+}
+body.dark{
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color: #3a3b3c;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
+}
+.container{
+    display: flex;
+}
+/* +++++++++++++ header class name is sidebar +++++++++++++ */
+.sidebar{
+    position: fixed;
+    width: 14rem; /* 250px */
+    background-color: aquamarine;
+    height: 99vh;
+    border: 2px solid red;
+    /* display: flex; */
+    overflow-y: auto;
+}
+/* +++++++++++++ logo design css start +++++++++++++ */
+.sidebar .image_logo{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    margin: .3rem;
+}
+.sidebar  .image img{
+    width: 40px;
+    border-radius: 6px;
+}
+.sidebar  .logo_text img{
+    width: 10rem;
+    border-radius: 6px;
+    margin-left: .3rem;
+}
+/* +++++++++++++ logo design css end +++++++++++++ */
+
+/* +++++++++++++ toggle  css start +++++++++++++ */
+.sidebar .toggle{
+    position: absolute;
+    top: 3%;
+    right: -.5rem;
+    font-size: 32px;
+    transform: translateY(-50%) rotate(180deg);
+    color: #000;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid saddlebrown;
+    cursor: pointer;
+    transition: var(--tran-05);
+   
+}
+/* +++++++++++++ toggle  css end +++++++++++++ */
+
+.section1{
+    width: calc(100% - 32.6rem);
+    background-color: blue;
+    height: 199vh;
+    border: 2px solid black;
+    position: relative;
+    left: 15.6rem;
+}
+
+.section2{
+    position: fixed;
+    right: 0;
+    width :20vw;
+    height: 99vh;
+    z-index: 1;
+    background-color: blueviolet;
+    border: 1px solid rgb(255, 0, 76);
+    /* display: none; */
+}
+
+
+
+
+
+
+
+
+/* @@@@@@@@@@@ Row code for logo */
+
+/* .sidebar .image_logo{
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+} */
+/* .sidebar  .image,
+.sidebar .fa-solid{
+    min-width: 60px;
+    border-radius: 6px;
+} */
+/* .sidebar header .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .sidebar  .image-text{
+    display: flex;
+    align-items: center;
+} */
+/* .sidebar  .logo-text{
+    display: flex;
+    flex-direction: column;
+    margin: .1rem 0 0 -.7rem;
+} */
+/* .sidebar  .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* 
+.sidebar  .image img{
+    width: 40px;
+    border-radius: 6px;
+} */

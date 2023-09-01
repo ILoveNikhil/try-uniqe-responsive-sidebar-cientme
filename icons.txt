@@ -1,0 +1,47 @@
+--------- toggle arrow icon ------------
+<i class="fa-solid fa-angle-right toggle"></i>
+
+------------ search icon --------
+<i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+
+
+---------- Home icon -----------
+<i class="fa-solid fa-house"></i>
+
+
+--------- Notification  icon ---------
+ <i class="fa-solid fa-bell"></i>
+
+
+ ------------- Massanger icon ----------
+ <i class="fa-brands fa-facebook-messenger fa-solid"></i>
+
+
+----------- Explorer icon --------
+<i class="fa-solid fa-compass"></i>
+
+
+------------ Reel icon ---------
+<i class="fa-solid fa-play"></i>
+
+
+------------ Music icon ---------
+<i class="fa-solid fa-headphones"></i>
+
+
+----------- create + icon ----------
+ <i class="fa-solid fa-plus"></i>
+
+----------- Micro Blog -----------
+ <i class="fa-brands fa-microblog fa-solid"></i>
+
+
+---------- profile img ---------
+<img src="images/boy-pic.jpeg" class="profile-img">
+
+
+-------------- dark and light toggle icon --------
+ <i class="fa-solid fa-moon moon"></i>
+ <i class="fa-solid fa-sun moon sun"></i>
+
+ 

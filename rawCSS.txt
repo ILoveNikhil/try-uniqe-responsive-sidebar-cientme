@@ -1,0 +1,120 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none ;  
+}
+:root{
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: red;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #00002f;
+    /* --text-color: black; */
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease; 
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+body{
+    /* min-height: 100vh; */
+    background-color: var(--body-color);
+    transition: var(--tran-05);  
+}
+body.dark{
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color: #3a3b3c;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    position: fixed;
+    width: 15.6rem; /* 250px */
+    background-color: aquamarine;
+    height: 99vh;
+    border: 2px solid red;
+}
+
+/* css for logo */
+.sidebar  .image,
+.sidebar .fa-solid{
+    min-width: 80px;
+    border-radius: 6px;
+}
+
+.sidebar  .image-text{
+    display: flex;
+    align-items: center;
+}
+.sidebar  .logo-text{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar  img{
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+}
+
+.sidebar  .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar  .image img{
+    width: 40px;
+    border-radius: 6px;
+}
+
+.sidebar  .toggle{
+    position: absolute;
+    top: 30%;
+    right: -0.7rem;
+    font-size: xx-large;
+    transform: translateY(-50%) rotate(180deg);
+    color: #000;
+    border-radius: 50%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 32px;
+    cursor: pointer;
+    transition: var(--tran-05);
+}
+
+.section1{
+    width :62vw;
+    background-color: blue;
+    height: 99vh;
+}
+
+.section2{
+    width :20vw;
+    background-color: blueviolet;
+    height: 99vh;
+}
